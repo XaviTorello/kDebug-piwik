@@ -9,7 +9,7 @@
  *
  */
 
-namespace Piwik\Plugins\KDebug;
+namespace Piwik\Plugins\kDebug;
 
 use Piwik\Menu\MenuAdmin;
 use Piwik\Piwik;
@@ -20,8 +20,8 @@ class Menu extends \Piwik\Plugin\Menu
     {
 
 
-        $menu->add('General_Settings', 'KDebug_Debug',
-                   array('module' => 'KDebug', 'action' => 'index'),
+        $menu->add('General_Settings', 'kDebug_Debug',
+                   array('module' => 'kDebug', 'action' => 'index'),
                    Piwik::hasUserSuperUserAccess(),
                    $order = 7);
     }

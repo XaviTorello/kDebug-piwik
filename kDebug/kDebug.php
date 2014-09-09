@@ -5,7 +5,7 @@ use Piwik\Config;
 /**
  * Main class file
  *
- * @package KDebug
+ * @package kDebug
  * @author Xavi Torello <info@xaviertorello.cat>
  */
 
@@ -26,7 +26,7 @@ define('KDEBUG_BASE_DIR', dirname(__FILE__));
 
 
 
-class KDebug
+class kDebug
 {
     var $language = KDEBUG_LANG_DEFAULT;
 
@@ -36,7 +36,7 @@ class KDebug
 
     var $_format = KDEBUG_FORMAT_DEFAULT;
 
-    function KDebug($opts = null)
+    function kDebug($opts = null)
     {
 
         $this->_base_dir = dirname(__FILE__);
@@ -170,10 +170,10 @@ class KDebug
 }
 
 
-function KDebug()
+function kDebug()
 {
     // modded this to not throw a PHP5 STRICT notice, although I don't like passing by value here
-    $kdg = new KDebug();
+    $kdg = new kDebug();
     $kdg->loadAndRun();
     $kdg->getOutput();
 }

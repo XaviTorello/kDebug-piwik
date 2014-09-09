@@ -8,9 +8,9 @@
  * Xavi Torello - http://xaviertorello.cat
  *
  */
-namespace Piwik\Plugins\KDebug;
+namespace Piwik\Plugins\kDebug;
 
-use KDebug;
+use kDebug;
 use Piwik\Piwik;
 use Piwik\View;
 
@@ -20,15 +20,15 @@ class Controller extends \Piwik\Plugin\ControllerAdmin
     {
         Piwik::checkUserHasSuperUserAccess();
 
-        require_once(dirname(__FILE__) . '/KDebug/KDebug.php');
+        require_once(dirname(__FILE__) . '/kDebug/kDebug.php');
 
-        $kdg = new KDebug();
+        $kdg = new kDebug();
 
         $kdg->loadAndRun();
 
         $results = $kdg->getResultsAsArray();
 
-        $view = new View('@KDebug/index');
+        $view = new View('@kDebug/index');
         $this->setBasicVariablesView($view);
         $view->results = $results;
         return $view->render();
