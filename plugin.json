@@ -1,6 +1,6 @@
 {
     "name": "kDebug",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "Activate or deactivate DEBUG tracking mode with a simple click.",
     "keywords": ["debug","tracker"],
     "license": "GPL v3+",
