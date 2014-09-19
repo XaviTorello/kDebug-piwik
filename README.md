@@ -29,4 +29,4 @@ GPL v3 or later
 
 ## Support
 
-Please direct any feedback to Xavi Torelló [http://xaviertorello.cat]
+Please direct any feedback to Xavier Torelló [http://xaviertorello.cat]
