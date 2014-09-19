@@ -4,6 +4,17 @@
 
 Activate or deactivate DEBUG tracking mode with a simple click.
 
+![kDebug Screenshot](http://xaviertorello.cat/img/projects/kDebugEN.png "kDebug toogle")
+
+kDebug is a simple plugin for Piwik to enable / disable DEBUG mode for tracking requests with a simple click.
+
+By default, it's needed to modify manually the Piwiks config.ini file.
+
+With this plugin just navigate to "Settings > Debug", and click on the toggle button to change the status of DEBUG mode.
+
+[More information](http://xaviertorello.cat/#portfolio "Xavier Torelló Porfolio")
+
+
 
 ## Installation
 
@@ -29,4 +40,4 @@ GPL v3 or later
 
 ## Support
 
-Please direct any feedback to Xavier Torelló [http://xaviertorello.cat]
+Please direct any feedback to [Xavier Torelló](http://xaviertorello.cat) [http://xaviertorello.cat/#contact]
