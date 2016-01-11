@@ -1,0 +1,12 @@
+{
+    "kDebug": {
+        "PluginDescription": "Active o desactive el estado de DEBUG con un simple click.",
+        "Result": "Resultado",
+        "Debug": "Debug",
+        "Information": "Estado de activación de DEBUG para el proceso de tracking",
+        "InformationDesc": "Active o desactive el estado de DEBUG con un simple click.",
+        "Detall": "Cuando el DEBUG está activo, las peticiones de rastreo mostrarán el detalle de log relacionado en vez de la imagen transparente 1x1. Para más información consulte la",
+        "DetallAPI": "documentación de los desarrolladores",
+        "DetallLink": "http://developer.piwik.org/api-reference/tracking-api#debugging-the-tracker"
+    }
+}
